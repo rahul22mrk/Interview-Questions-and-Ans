@@ -1,0 +1,110 @@
+# Java Backend Interview Questions (Real Interviews)
+
+## Interview 1 - Jio
+
+### Introduction & Project
+
+- Tell me about yourself.
+- Explain your current project.
+- Explain your responsibilities in your project.
+
+### Multithreading & Concurrency
+
+- How is rate limiting implemented in your current project?
+- What is a Thread Pool?
+- How would you handle a failing microservice without breaking the application flow?
+- How would you create 10 threads using ExecutorService?
+- What are the different ways to create a thread?
+- Where have you used multithreading in your project?
+- How do you start a thread and print the current thread name?
+- Explain the Thread Lifecycle.
+- If there are 10 tasks but only 2–3 threads available, how are tasks scheduled?
+- Tell me about a production bug you fixed.
+- What problems occur if concurrency is not handled properly?
+
+### JVM & Memory
+
+- How is memory managed in Java?
+- How does Garbage Collection work?
+
+### Exception Handling
+
+- Types of Exceptions.
+- Custom Exception.
+- try-catch, throw, throws and finally.
+
+### Collections
+
+- remove(int) vs remove(Object)
+- What happens if you remove elements while iterating?
+- HashMap vs Hashtable vs ConcurrentHashMap
+- Arrays.asList() and List.of() output-based questions
+
+### Java 8
+
+- Java 8 features
+- Lambda Expression
+- Stream API
+- filter(), map(), toList(), groupingBy()
+
+### Redis
+
+- Where have you used Redis?
+- How did you implement Rate Limiting?
+
+### Kafka
+
+- Have you used Kafka? Explain your use case.
+
+### DSA
+
+- You have 10 million boolean values. Which is better?
+  - Boolean[]
+  - boolean[]
+  - BitSet
+
+---
+
+# Interview 2 - CELESTIAL SYSTEMS PRIVATE LIMITED
+
+### Introduction
+
+- Tell me about yourself.
+
+### Project
+
+- Explain your project.
+- What are your responsibilities?
+- What modules/features have you worked on?
+
+### Core Java
+
+- What is Serialization?
+- What is a Marker Interface?
+- Why do we use Marker Interfaces?
+- What is a Functional Interface?
+- Where is a Functional Interface used?
+- Difference between Interface and Abstract Class.
+- After default methods were introduced, what differences still remain?
+- When should you use an Interface?
+- When should you use an Abstract Class?
+- What is the transient keyword?
+- Explain the Diamond Problem.
+- What are Wrapper Classes?
+- Why do we need Wrapper Classes?
+
+### SQL
+
+- Primary Key vs Unique Key.
+- What is Indexing?
+- Types of Indexing.
+- A query is taking too much time. How would you optimize it?
+- Find duplicate email IDs.
+- Difference between IN and EXISTS.
+
+### Jasper Reports
+
+- What are Fields?
+- What are Parameters?
+- What are Variables?
+- A Jasper Report is taking too much time to render. How would you debug and optimize it?
